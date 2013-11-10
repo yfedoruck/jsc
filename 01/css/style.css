@@ -1,0 +1,25 @@
+* { padding: 0px; margin 0px; }
+
+h1, h2, h3 { margin: 10px; }
+h1 { font-style:italic; }
+body { background-color: #E6E6FA; margin: 0 20px; }
+p:first-letter { font-size: 130%; }
+.contacts {font-size: 12px; background-color: #CCCCCC; }
+.about { text-align : justify; }
+
+/* lists */
+ul { margin: 10px; }
+ul li { display: inline; }
+dl dt h3:before { content: "♦ "; }
+dl dd { margin-left: 50px; }
+
+/* links */
+a:hover { font-weight: bold; }
+a { color: #0000CC; }
+ul li a { color: green; }
+
+/* other */
+.elepfant-img { text-align : center; }
+.copyright:after { content: "™"; }
+.form,.contacts, .elephant { display:inline-block; }
+.elephant { background-color: #000000; color: #ffffff; }
