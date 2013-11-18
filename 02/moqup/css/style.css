@@ -1,0 +1,25 @@
+* { padding: 0px; margin: 0px; }
+
+body { margin: 0 20px; font-size: 62.5%; line-height: 1; }
+
+/* lists */
+/*
+ul li { display: inline; border:0.1em solid; }
+*/
+ul {
+  list-style: none; 
+  width: 100%;
+  display: table;
+  table-layout: fixed; /* optional */
+}
+
+ul li {
+  display: table-cell;
+  width: auto;
+  text-align: center;
+  border:0.1em solid;
+  padding: 1%;
+  
+}
+
+.content, .article { border:0.1em solid; }
