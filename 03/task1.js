@@ -25,8 +25,8 @@ var App = function(){
  
 if (typeof Function.prototype.myBind === 'undefined') {
         Function.prototype.myBind = function(context){
-                var self = this;
-                self.apply(context, arguments);
+                var func = this;
+                func.apply(context, arguments);
         };
 }
  
