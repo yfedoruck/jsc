@@ -1,0 +1,17 @@
+{
+  "name": "pretty-great-module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "tape": "~2.3.0"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "firefox": [ 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ],
+      "opera": [ 12 ]
+    }
+  }
+}
